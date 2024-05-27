@@ -25,12 +25,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-d1yk*4@h)69to)l%wl^eycw_b%b!gf-$rti+myb8ag+lgvfsdn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "https://wig-foundation.vercel.app",
 ]
 
 # Application definition
